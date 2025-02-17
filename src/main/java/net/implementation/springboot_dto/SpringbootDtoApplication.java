@@ -1,37 +1,37 @@
-//package net.implementation.springboot_dto;
+////package net.implementation.springboot_dto;
+////
+////import net.implementation.springboot_dto.model.Location;
+////import net.implementation.springboot_dto.repository.LocationRepository;
+////import net.implementation.springboot_dto.repository.UserRepository;
+////import org.springframework.beans.factory.annotation.Autowired;
+////import org.springframework.boot.CommandLineRunner;
+////import org.springframework.boot.SpringApplication;
+////import org.springframework.boot.autoconfigure.SpringBootApplication;
+////
+////@SpringBootApplication
+////public class SpringbootDtoApplication implements CommandLineRunner {
+////
+////	public static void main(String[] args)
+////	{
+////
+////		SpringApplication.run(SpringbootDtoApplication.class, args);
+////
+////		@Autowired
+////		private UserRepository userRepository;
+////
+////		@Autowired
+////				private LocationRepository locationRepository
+////
+////	}
+////
+////	@Override
+////	public void run(String... args) throws Exception {
+////
+////		Location location = new Location();
+////
+////	}
+////}
 //
-//import net.implementation.springboot_dto.model.Location;
-//import net.implementation.springboot_dto.repository.LocationRepository;
-//import net.implementation.springboot_dto.repository.UserRepository;
-//import org.springframework.beans.factory.annotation.Autowired;
-//import org.springframework.boot.CommandLineRunner;
-//import org.springframework.boot.SpringApplication;
-//import org.springframework.boot.autoconfigure.SpringBootApplication;
-//
-//@SpringBootApplication
-//public class SpringbootDtoApplication implements CommandLineRunner {
-//
-//	public static void main(String[] args)
-//	{
-//
-//		SpringApplication.run(SpringbootDtoApplication.class, args);
-//
-//		@Autowired
-//		private UserRepository userRepository;
-//
-//		@Autowired
-//				private LocationRepository locationRepository
-//
-//	}
-//
-//	@Override
-//	public void run(String... args) throws Exception {
-//
-//		Location location = new Location();
-//
-//	}
-//}
-
 package net.implementation.springboot_dto;
 
 import net.implementation.springboot_dto.model.Location;
@@ -82,3 +82,22 @@ public class SpringbootDtoApplication implements CommandLineRunner {
 		userRepository.save(user2);
 	}
 }
+
+//package net.implementation.springboot_dto;
+//
+//import org.springframework.boot.CommandLineRunner;
+//import org.springframework.boot.SpringApplication;
+//import org.springframework.boot.autoconfigure.SpringBootApplication;
+//
+//@SpringBootApplication
+//public class SpringbootDtoApplication implements CommandLineRunner {
+//
+//	public static void main(String[] args) {
+//		SpringApplication.run(SpringbootDtoApplication.class, args);
+//	}
+//
+//	@Override
+//	public void run(String... args) throws Exception {
+//		// No initial data setup needed here
+//	}
+//}
